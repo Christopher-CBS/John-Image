@@ -37,7 +37,7 @@ const ALL_ITEMS: GalleryItem[] = [
     tags: ["Mariage", "Cérémonie", "Émotion"],
   },
   {
-    src: "/images/Mariage/photo6.JPG",
+    src: "/images/Mariage/photo2.jpg",
     alt: "Mariage 2",
     type: "image",
     category: "Mariage",
@@ -48,8 +48,8 @@ const ALL_ITEMS: GalleryItem[] = [
     tags: ["Mariage", "Premier Regard", "Extérieur"],
   },
   {
-    src: "/images/Mariage/photo4.JPG",
-    alt: "Mariage 2",
+    src: "/images/Mariage/photo3.jpg",
+    alt: "Mariage 3",
     type: "image",
     category: "Mariage",
     title: "Des photos pleines d'émotion et d'élégance",
@@ -59,8 +59,8 @@ const ALL_ITEMS: GalleryItem[] = [
     tags: ["Mariage", "Premier Regard", "Extérieur"],
   },
   {
-    src: "/images/Mariage/photo5.JPG",
-    alt: "Mariage 2",
+    src: "/images/Mariage/photo4.JPG",
+    alt: "Mariage 4",
     type: "image",
     category: "Mariage",
     title: "L'art de raconter votre histoire d'amour en images",
@@ -70,8 +70,8 @@ const ALL_ITEMS: GalleryItem[] = [
     tags: ["Mariage", "Premier Regard", "Extérieur"],
   },
   {
-    src: "/images/Mariage/photo3.jpg",
-    alt: "Mariage 2",
+    src: "/images/Mariage/photo5.JPG",
+    alt: "Mariage 5",
     type: "image",
     category: "Mariage",
     title: "Des clichés qui traversent le temps",
@@ -81,8 +81,19 @@ const ALL_ITEMS: GalleryItem[] = [
     tags: ["Mariage", "Premier Regard", "Extérieur"],
   },
   {
+    src: "/images/Mariage/photo6.JPG",
+    alt: "Mariage 6",
+    type: "image",
+    category: "Mariage",
+    title: "Mariages uniques, souvenirs inoubliables",
+    location: "Parc",
+    date: "22 Juillet 2023",
+    desc: "Émotion et élégance lors de cette cérémonie.",
+    tags: ["Mariage", "Premier Regard", "Extérieur"],
+  },
+  {
     src: "/images/Mariage/photo7.JPG",
-    alt: "Mariage 2",
+    alt: "Mariage 7",
     type: "image",
     category: "Mariage",
     title: "Mariages uniques, souvenirs inoubliables",
@@ -107,7 +118,7 @@ const ALL_ITEMS: GalleryItem[] = [
     tags: ["Portrait", "Noir & Blanc", "Studio"],
   },
   {
-    src: "/images/Portrait/photo2.jpg",
+    src: "/images/Portrait/photo2.JPG",
     alt: "Portrait 2",
     type: "image",
     category: "Portrait",
@@ -122,7 +133,7 @@ const ALL_ITEMS: GalleryItem[] = [
   },
   {
     src: "/images/Portrait/photo3.jpg",
-    alt: "Portrait 2",
+    alt: "Portrait 3",
     type: "image",
     category: "Portrait",
     title: "Expression Pure",
@@ -136,7 +147,7 @@ const ALL_ITEMS: GalleryItem[] = [
   },
   {
     src: "/images/Portrait/photo4.jpg",
-    alt: "Portrait 2",
+    alt: "Portrait 4",
     type: "image",
     category: "Portrait",
     title: "Expression Pure",
@@ -150,7 +161,7 @@ const ALL_ITEMS: GalleryItem[] = [
   },
   {
     src: "/images/Portrait/photo5.jpg",
-    alt: "Portrait 2",
+    alt: "Portrait 5",
     type: "image",
     category: "Portrait",
     title: "Expression Pure",
@@ -164,7 +175,7 @@ const ALL_ITEMS: GalleryItem[] = [
   },
   {
     src: "/images/Portrait/photo6.jpg",
-    alt: "Portrait 2",
+    alt: "Portrait 6",
     type: "image",
     category: "Portrait",
     title: "Expression Pure",
@@ -176,18 +187,7 @@ const ALL_ITEMS: GalleryItem[] = [
     equipment: "Fujifilm GFX 100S, 110mm f/2",
     tags: ["Portrait", "Minimaliste", "Studio"],
   },
-  // Vidéos (maintenant avec Vimeo)
-  // {
-  //   type: "video",
-  //   category: "Vidéaste",
-  //   title: "Vidéo portfolio",
-  //   location: "",
-  //   date: "",
-  //   desc: "Vidéo ajoutée au portfolio général.",
-  //   poster: "/images/video-cover.jpg",
-  //   vimeoUrl: "https://vimeo.com/VOTRE_ID_VIDEO_1", // Remplacez par votre ID Vimeo
-  //   tags: ["Vidéaste", "Portfolio"],
-  // },
+  // Vidéos
   {
     type: "video",
     category: "Vidéaste",
@@ -196,7 +196,7 @@ const ALL_ITEMS: GalleryItem[] = [
     date: "",
     desc: "Vidéo corporate.",
     poster: "/images/Portfolio3/cover.jpg",
-    vimeoUrl: "https://vimeo.com/1089230578?share=copy#t=0", // Remplacez par votre ID Vimeo
+    vimeoUrl: "https://vimeo.com/1089230578?share=copy#t=0",
     tags: ["Vidéaste", "Corporate"],
   },
   // Nouvelle vidéo 1
@@ -211,18 +211,6 @@ const ALL_ITEMS: GalleryItem[] = [
     vimeoUrl: "https://vimeo.com/1089229105?share=copy", // Remplacez par l'ID de votre vidéo Vimeo
     tags: ["Vidéaste"],
   },
-  // Nouvelle vidéo 2
-  // {
-  //   type: "video",
-  //   category: "Vidéaste",
-  //   title: "Titre de votre nouvelle vidéo 2",
-  //   location: "", // Optionnel
-  //   date: "", // Optionnel
-  //   desc: "Description de votre nouvelle vidéo 2.",
-  //   poster: "/images/video-cover.jpg", // Utilisation de l'image de couverture générale pour les vidéos
-  //   vimeoUrl: "https://vimeo.com/VOTRE_ID_NOUVELLE_VIDEO_2", // Remplacez par l'ID de votre vidéo Vimeo
-  //   tags: ["Vidéaste"],
-  // },
 ];
 
 const categories = Array.from(new Set(ALL_ITEMS.map((i) => i.category)));
@@ -330,14 +318,7 @@ export default function PortfolioPage() {
                     priority={idx < 4}
                     onError={(e) => {
                       console.error(`Error loading image: ${item.src}`);
-                      const img = e.currentTarget;
-                      if (item.src?.toLowerCase().endsWith(".jpg")) {
-                        img.src = item.src.replace(".jpg", ".JPG");
-                      } else if (item.src?.toLowerCase().endsWith(".jpeg")) {
-                        img.src = item.src.replace(".jpeg", ".JPG");
-                      } else {
-                        img.src = "/images/placeholder.jpg";
-                      }
+                      e.currentTarget.src = "/images/placeholder.jpg";
                     }}
                   />
                 )}
