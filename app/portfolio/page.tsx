@@ -298,6 +298,7 @@ export default function PortfolioPage() {
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                      priority={idx < 4}
                     />
                     <div className="absolute inset-0 flex items-center justify-center bg-black/30">
                       <svg
@@ -326,9 +327,17 @@ export default function PortfolioPage() {
                     height={1200}
                     className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    priority={idx < 4}
                     onError={(e) => {
                       console.error(`Error loading image: ${item.src}`);
-                      e.currentTarget.src = "/images/placeholder.jpg";
+                      const img = e.currentTarget;
+                      if (item.src?.toLowerCase().endsWith(".jpg")) {
+                        img.src = item.src.replace(".jpg", ".JPG");
+                      } else if (item.src?.toLowerCase().endsWith(".jpeg")) {
+                        img.src = item.src.replace(".jpeg", ".JPG");
+                      } else {
+                        img.src = "/images/placeholder.jpg";
+                      }
                     }}
                   />
                 )}
