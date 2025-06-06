@@ -8,62 +8,40 @@ const GALLERIES = {
       "Découvrez nos plus belles photos de mariage, capturant l'émotion et la magie de chaque instant.",
     items: [
       {
-        src: "/images/Porfolio1/Photo1.JPG",
-        alt: "Premier regard",
+        src: "/images/Mariage/photo1.jpg",
+        alt: "Mariage 1",
         type: "image",
       },
       {
-        src: "/images/Porfolio1/Photo2.JPG",
-        alt: "Premier regard",
+        src: "/images/Mariage/photo2.jpg",
+        alt: "Mariage 2",
         type: "image",
       },
       {
-        src: "/images/Porfolio1/Photo3.JPG",
-        alt: "Premier regard",
+        src: "/images/Mariage/photo3.jpg",
+        alt: "Mariage 3",
         type: "image",
       },
       {
-        src: "/images/Porfolio1/Photo4.JPG",
-        alt: "Premier regard",
+        src: "/images/Mariage/photo4.JPG",
+        alt: "Mariage 4",
         type: "image",
       },
       {
-        src: "/images/Porfolio1/Photo5.JPG",
-        alt: "Premier regard",
+        src: "/images/Mariage/photo5.JPG",
+        alt: "Mariage 5",
         type: "image",
       },
       {
-        src: "/images/Porfolio1/Photo6.JPG",
-        alt: "Premier regard",
+        src: "/images/Mariage/photo6.JPG",
+        alt: "Mariage 6",
         type: "image",
       },
       {
-        src: "/images/Porfolio1/Photo7.JPG",
-        alt: "Premier regard",
+        src: "/images/Mariage/photo7.JPG",
+        alt: "Mariage 7",
         type: "image",
       },
-      {
-        src: "/images/Porfolio1/Photo8.JPG",
-        alt: "Premier regard",
-        type: "image",
-      },
-      {
-        src: "/images/Porfolio1/Photo9.JPG",
-        alt: "Premier regard",
-        type: "image",
-      },
-      {
-        src: "/images/Porfolio1/Photo10.JPG",
-        alt: "Premier regard",
-        type: "image",
-      },
-      {
-        src: "/images/Porfolio1/Photo11.JPG",
-        alt: "Premier regard",
-        type: "image",
-      },
-
-      // Ajoute d'autres photos de mariage ici
     ],
   },
   portrait: {
