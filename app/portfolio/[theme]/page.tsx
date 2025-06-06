@@ -42,6 +42,11 @@ const GALLERIES = {
         alt: "Mariage 7",
         type: "image",
       },
+      {
+        src: "/images/Mariage/photo8.JPG",
+        alt: "Mariage 7",
+        type: "image",
+      },
     ],
   },
   portrait: {
